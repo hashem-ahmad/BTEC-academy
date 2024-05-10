@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --Rasisin-black: #272635;
+  --French_gray: #a6a6a8;
+  --silver: #cecece;
+  --non_photo_blue: #b1e5f2;
+  --Ghost_white: #e8e9f3;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  overflow-y:scroll;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+body {
+  background-color: var(--Ghost_white);
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 30px;
+  background-color: var(--Rasisin-black);
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  position: fixed;
+  z-index: 100000;
+  width: 90%;
+  margin-left: 67px;
+
+  li,
+  a,
+  button {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--non_photo_blue);
+    text-decoration: none;
+  }
+  
+
+
+  .logo {
+    height: 80px;
+    width: 80px;
+  }
+  .navbar1 {
+    list-style: none;
+  }
+  .navbar1 li {
+    display: inline-block;
+    padding: 0px 20px;
+    color: var(--Ghost_white);
+  }
+  .navbar1 a li {
+    transition: all 0.3 ease 0s;
+  }
+  .navbar1 a li:hover {
+    color: var(--French_gray);
+  }
+  .navbar1 a li:active{
+    color: black;
+  }
+  button {
+    padding: 5px 18px;
+    background-color: var(--non_photo_blue);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+    color: #272635;
+  }
+  button:hover {
+    background-color: var(--French_gray);
+  }
+
+  .material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  }
+  .material-symbols-outlined:hover{
+    color: var(--French_gray);
+  }
+}
+
+.section1 {
+  padding-top: 600px;
+}
+footer {
+  display:flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: var(--Rasisin-black);
+  h3{
+    color: var(--silver);
+  }
+  .footerpages{
+    ul{
+      list-style: none;
+    }
+    ul a{
+      color: var(--silver);
+      text-decoration: none;
+    }
+    ul a:hover{
+      color: var(--Ghost_white);
+    }
+  }
+  .footercontact{
+    color: var(--silver);
+    
+  
+    p{
+      display: inline;
+      padding-left: 5px;
+      padding-top: 0%;
+      padding-bottom: 0%;
+    }
+    p:hover{
+      color: var(--Ghost_white);
+    }
+    #icon{
+      padding-top: 5px;
+      margin-top: 5px;
+      
+
+      
+    }
+    
+  }
+  .socialmediaF{
+    p{color: var(--silver);
+      display: inline;
+  
+    }
+    p:hover{
+      color: var(--Ghost_white);
+    }
+    
+
+}  
+  .footernote{ 
+    textarea{
+      background-color: var(--Rasisin-black);
+      border-radius: 3px;
+      color: var(--Ghost_white);
+      border-width: 2px;
+    }
+  }
+  
+}
